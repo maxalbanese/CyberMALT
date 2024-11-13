@@ -1,5 +1,5 @@
 # Autoencoders
-The autoencoder is trained to reconstruct the input data by adjusting its weights during the training phase. As shown in Figure~\ref{fig:autoencoder}, the autoencoder consists of three main elements:
+The autoencoder is trained to reconstruct the input data by adjusting its weights during the training phase. As shown in![Figure 1: Structure of the Autoencoder](images/autoencoder.png), the autoencoder consists of three main elements:
 
 1. **Encoder**: Compresses the input data into a smaller representation called the *latent space*.
 2. **Latent Space**: Represents the compressed version of the input data.
