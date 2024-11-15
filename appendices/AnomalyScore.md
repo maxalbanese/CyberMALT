@@ -6,4 +6,4 @@ $$
 
 If `w(s,d,p) = ∅`, we set $\alpha\left(w,s,d,p\right) = 0$.
 
-If the anomaly score for a set `w(s,d,p)` of flow records is above the predefined threshold value `τ(p)`, then `w(s,d,p)` is marked as an anomaly by the Anomaly Detection Module. Otherwise, it is marked as normal. As discussed earlier, a low threshold may result in the detection of more attacks, but it increases the risk of false positives. Conversely, a high threshold may reduce the number of false positives, but it could also mean that some attacks remain undetected.
+If the anomaly score for a set `w(s,d,p)` of flow records is above the predefined threshold value `τ(p)`, then `w(s,d,p)` is marked as an anomaly by the Anomaly Detection Module. Otherwise, it is marked as normal. A low threshold may result in the detection of more attacks, but it increases the risk of false positives. Conversely, a high threshold may reduce the number of false positives, but it could also mean that some attacks remain undetected.
