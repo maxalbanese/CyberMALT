@@ -37,9 +37,11 @@ The proposed method was evaluated using the CIC-IDS2017 dataset, processed into 
   - The web attack generated low anomaly scores and was not detected effectively, as it is host-based rather than network-based.
 
 ## Conclusion
-The results confirm the effectiveness of the approach in detecting and classifying attacks with high recall and manageable false positive rates. Future work will focus on extending the framework to cover more attack types and enhancing real-time capabilities.
+The results confirm the approach's effectiveness in detecting and classifying attacks with high recall and manageable false positive rates. Future work will focus on extending the framework to cover more attack types and enhancing real-time capabilities.
 
 ### Figures and Tables
 - **Figures 1, 2, and 3:** Show anomaly scores for traffic to ports 21, 22, and 80.
-  ![Figure 1: Structure of the Autoencoder](https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true)
+  ![Figure 3: Results for Traffic to Port 21]([https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true](https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
+  ![Figure 3: Results for Traffic to Port 22]([https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true](https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
+  ![Figure 3: Results for Traffic to Port 80]([https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true](https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
 - **Table II & III:** Report clustering results with Euclidean and Manhattan distances, demonstrating the purity and separation of events into meaningful clusters.
