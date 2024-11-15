@@ -32,7 +32,7 @@ Brief Description on the Parameters of the Threshold
 Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
 
 ### [Results](appendices/results.md)
-More Results of the Experiment.
+More Results of the Experiments.
 
 
 
