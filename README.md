@@ -28,6 +28,12 @@ Emphasis on the Anomaly Score.
 ### [Threshold](appendices/Threshold.md)
 Brief Description of the Parameters of the Threshold
 
+### [GetEvents](appendices/GetEventsAlgorithm.md)
+More Detailed Description of getEvents Algorithm
+
+### [ClusterEvent](appendices/ClusterEventAlgorithm.md)
+More Detailed Description of clusterEvent Algorithm
+
 ### [Dataset CIC-IDS2017](appendices/Dataset.md)
 Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
 
