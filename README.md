@@ -16,7 +16,7 @@ The Data Analysis module is used to process and analyze collected data.
 For more details on the autoencoder structure and its role in anomaly detection
 
 ### [Dataset CIC-IDS2017](appendices/Dataset.md)
-Detailed Explanation of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
+Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
 
 ---
 
