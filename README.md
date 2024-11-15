@@ -18,11 +18,11 @@ For more details on the autoencoder structure and its role in anomaly detection
 ### [Anomaly Score](appendices/AnomalyScore.md)
 Emphasis on the Anomaly Score.
 
-### [Dataset CIC-IDS2017](appendices/Dataset.md)
-Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
-
 ### [Threshold](appendices/Threshold.md)
 More Details on the Parameters of the Threshold
+
+### [Dataset CIC-IDS2017](appendices/Dataset.md)
+Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
 
 ---
 
