@@ -7,7 +7,7 @@ Welcome to the **CyberMALT** project! This repository contains tools and resourc
 ## Modules
 
 ### [Autoencoder](appendices/Autoencoders.md)
-The Core System is the backbone of CyberMALT, implementing key functionalities such as [brief description, e.g., threat detection algorithms].
+For more details on the autoencoder structure and its role in anomaly detection
 
 ### [Web Interface](modules/web/README.md)
 The Web Interface provides a user-friendly platform to interact with the system and visualize data.
