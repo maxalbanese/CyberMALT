@@ -18,6 +18,9 @@ For more details on the autoencoder structure and its role in anomaly detection
 ### [Dataset CIC-IDS2017](appendices/Dataset.md)
 Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
 
+### [Threshold](appendices/Threshold.md)
+More Details on the Parameters of the Threshold
+
 ---
 
 Each module has its own README file, which provides more details on setup and usage.
