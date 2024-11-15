@@ -10,7 +10,7 @@ Welcome to the **CyberMALT** project! This repository contains tools and resourc
 For a detailed explanation of traditional and machine learning-based intrusion detection methods
 
 ### [Pre-Processing](appendices/preprocessing.md)
-The Data Analysis module is used to process and analyze collected data.
+Detailed Explanation of the Preprocessing of the Dataset. 
 
 ### [Autoencoder](appendices/Autoencoders.md)
 For more details on the autoencoder structure and its role in anomaly detection
