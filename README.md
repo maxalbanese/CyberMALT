@@ -38,7 +38,7 @@ More Detailed Description of clusterEvent Algorithm
 Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
 
 ### [Results](appendices/results.md)
-More Results from the Experiments.
+More Details from the Experiments.
 
 
 
