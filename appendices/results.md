@@ -40,5 +40,5 @@ The proposed method was evaluated using the CIC-IDS2017 dataset, processed into 
 The results confirm the effectiveness of the approach in detecting and classifying attacks with high recall and manageable false positive rates. Future work will focus on extending the framework to cover more attack types and enhancing real-time capabilities.
 
 ### Figures and Tables
-- **Figures 5, 6, and 7:** Show anomaly scores for traffic to ports 21, 22, and 80.
+- **Figures 1, 2, and 3:** Show anomaly scores for traffic to ports 21, 22, and 80.
 - **Table II & III:** Report clustering results with Euclidean and Manhattan distances, demonstrating the purity and separation of events into meaningful clusters.
