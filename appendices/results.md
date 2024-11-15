@@ -41,7 +41,7 @@ The results confirm the approach's effectiveness in detecting and classifying at
 
 ### Figures and Tables
 - **Figures 1, 2, and 3:** Show anomaly scores for traffic to ports 21, 22, and 80.
-  ![Figure 3: Results for Traffic to Port 21]([https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true](https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
-  ![Figure 3: Results for Traffic to Port 22]([https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true](https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
-  ![Figure 3: Results for Traffic to Port 80]([https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true](https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
+  ![Figure 1: Results for Traffic to Port 21]([https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg](https://github.com/maxalbanese/CyberMALT/blob/main/images/FTP-Patator-PortScan-21.jpg]))
+  ![Figure 2: Results for Traffic to Port 22]((https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
+  ![Figure 3: Results for Traffic to Port 80]((https://github.com/maxalbanese/CyberMALT/blob/main/images/DoS-PortScan-DDoS-Web-Attack-80.jpg))
 - **Table II & III:** Report clustering results with Euclidean and Manhattan distances, demonstrating the purity and separation of events into meaningful clusters.
