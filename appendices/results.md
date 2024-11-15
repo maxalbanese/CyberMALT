@@ -1,56 +1,44 @@
-# Data Processing and Analysis
+# Results
 
-We processed the network flows in the **CIC-IDS2017 dataset** as discussed in **Section III-A** and indexed them into 20-second windows (\(\Delta t = 20s\)). We used data from **Monday**, which is known to be benign, for training the autoencoder to model benign traffic on each of the ports: **80**, **21**, and **22**.
+The proposed method was evaluated using the CIC-IDS2017 dataset, processed into 20-second windows. The key findings from the experiments are as follows:
 
-Thus, the attacks we can observe include:
+## Anomaly Detection
+1. **Analyzed Attacks:** 
+   - Observed attacks include FTP-Patator, SSH-Patator, DoS (Slowloris, SlowHTTPTest, Hulk, GoldenEye), web brute force, XSS, SQL injection, DDoS, and port scan.
+   - The infiltration attack was excluded due to mislabeling.
 
-- **FTP-Patator**
-- **SSH-Patator**
-- **DoS Slowloris**
-- **DoS SlowHTTPTest**
-- **DoS Hulk**
-- **DoS GoldenEye**
-- **Web brute force attack**
-- **XSS attack**
-- **SQL-injection attack**
-- **DDoS**
-- **Port scan**
+2. **Anomaly Scoring:** 
+   - Anomaly scores were computed for each window using a defined equation.
+   - Windows were classified as anomalous if the normalized score exceeded 1.
 
-The **infiltration attack** was not studied because it was mislabeled. The **Botnet** and **Heartbleed** attacks utilized ports with no benign flows.
+3. **Threshold Adjustment:**
+   - Low thresholds improved recall but increased false positives, which were mitigated during the clustering stage.
 
----
+## Clustering
+- **Methodology:** 
+  - Clustering was performed on anomalous events using K-means with Euclidean and Manhattan distance metrics.
+  - The optimal number of clusters was determined via the elbow method.
 
-## Anomaly Detection Process
+- **Results:** 
+  - Events were successfully grouped into benign and attack-related clusters.
+  - Small clusters primarily contained attack events, while larger clusters grouped false positives.
 
-For each window from **Tuesday to Friday** (the days when attacks were executed), we grouped the flows based on their **source IP** (\(s\)), **destination IP** (\(d\)), and **port** (\(p\)), obtaining sets of flows \(w(s, d, p)\). 
+- **Purity:** 
+  - Most clusters showed high purity, indicating accurate classification of benign and attack events.
+  - Clustering allowed effective differentiation between true positives and false positives.
 
-For each triple \((s, d, p)\), we computed the anomaly score \(\alpha\) for all windows \(w \in W\) using **Eq. 2**:
+## Highlights
+- The system effectively identified various attack types, including:
+  - FTP-Patator and SSH-Patator
+  - DoS and DDoS
+  - Port scan attacks
 
-\[
-\alpha(w) = \text{<Insert your Eq. 2 here>}
-\]
+- **Challenges:** 
+  - The web attack generated low anomaly scores and was not detected effectively, as it is host-based rather than network-based.
 
-Then, we used **algorithm getEvents** to identify anomalous events, where we set \(g = 30\) in our experiments.
+## Conclusion
+The results confirm the effectiveness of the approach in detecting and classifying attacks with high recall and manageable false positive rates. Future work will focus on extending the framework to cover more attack types and enhancing real-time capabilities.
 
----
-
-## Event Clustering
-
-After identifying anomalous events for all triples \((s, d, p)\), we used **algorithm clusterEvent** to cluster these events into groups. This overall process is summarized in **Algorithm analyzeData (Algorithm 3)**, which provides a step-by-step approach to processing and analyzing network flow data for anomaly detection.
-
----
-
-### Algorithms
-
-#### Algorithm: **getEvents**
-Identifies anomalous events for flows.
-
-#### Algorithm: **clusterEvent**
-Clusters anomalous events into meaningful groups.
-
-#### Algorithm: **analyzeData**
-Processes network flows to identify and cluster anomalous events.
-
----
-
-This process ensures robust detection and analysis of anomalies within the CIC-IDS2017 dataset, leveraging machine learning models and clustering techniques to identify attack patterns and unusual behaviors effectively.
+### Figures and Tables
+- **Figures 5, 6, and 7:** Show anomaly scores for traffic to ports 21, 22, and 80.
+- **Table II & III:** Report clustering results with Euclidean and Manhattan distances, demonstrating the purity and separation of events into meaningful clusters.
