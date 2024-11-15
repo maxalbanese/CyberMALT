@@ -41,4 +41,5 @@ The results confirm the effectiveness of the approach in detecting and classifyi
 
 ### Figures and Tables
 - **Figures 1, 2, and 3:** Show anomaly scores for traffic to ports 21, 22, and 80.
+  ![Figure 1: Structure of the Autoencoder](https://github.com/maxalbanese/CyberMALT/blob/main/images/Autoencoder.jpg?raw=true)
 - **Table II & III:** Report clustering results with Euclidean and Manhattan distances, demonstrating the purity and separation of events into meaningful clusters.
