@@ -8,6 +8,7 @@
   - Adaptive to new types of cyber threats without requiring payload inspection.
 
 This repository expands the CyberMALT research paper. Each module provides supplementary information, analyses, and insights that enhance what is presented in the paper. This includes expanded methodologies, More experimental results, and deeper explanations of CyberMALT's processes.
+
 ---
 
 ## Modules
