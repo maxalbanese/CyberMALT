@@ -1,7 +1,13 @@
 # CyberMALT
 
-Welcome to the **CyberMALT** project! This repository contains tools and resources for [brief project description, e.g., securing IoT networks, analyzing cyber threats, etc.]. Each module has its own documentation, which you can access through the links below.
+**CyberMALT** (Machine Learning-Assisted Traffic Analysis for Cyber Threat Detection and Classification) introduces an innovative approach to tackling modern cyber threats using machine learning. By focusing on traffic metadata, our method ensures efficient detection and classification of threats while maintaining privacy and scalability.
 
+- **Key Features:**
+  - Two-stage analysis combining unsupervised learning and comprehensive classification.
+  - Emphasis on minimizing false positives through anomaly detection and clustering.
+  - Adaptive to new types of cyber threats without requiring payload inspection.
+
+This repository expands the CyberMALT research paper. Each module provides supplementary information, analyses, and insights that enhance what is presented in the paper. This includes expanded methodologies, More experimental results, and deeper explanations of CyberMALT's processes.
 ---
 
 ## Modules
@@ -27,8 +33,6 @@ Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Uti
 ### [Results](appendices/results.md)
 More Results of the Experiment.
 
----
 
-Each module has its own README file, which provides more details on setup and usage.
 
 
