@@ -1,4 +1,4 @@
-# Intrusion Detection Techniques
+# Related Works
 
 ## A. Traditional Intrusion Detection
 
