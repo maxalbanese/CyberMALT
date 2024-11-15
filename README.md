@@ -9,7 +9,7 @@ Welcome to the **CyberMALT** project! This repository contains tools and resourc
 ### [Autoencoder](appendices/Autoencoders.md)
 For more details on the autoencoder structure and its role in anomaly detection
 
-### [Related Works](appendicies/RelatedWorks.md)
+### [Related Works](appendices/RelatedWorks.md)
 For a more detailed explanation of traditional and machine learning-based intrusion detection methods
 
 ### [Data Analysis](modules/data/README.md)
