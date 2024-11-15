@@ -9,8 +9,8 @@ Welcome to the **CyberMALT** project! This repository contains tools and resourc
 ### [Autoencoder](appendices/Autoencoders.md)
 For more details on the autoencoder structure and its role in anomaly detection
 
-### [Web Interface](modules/web/README.md)
-The Web Interface provides a user-friendly platform to interact with the system and visualize data.
+### [Related Works](appendicies/RelatedWorks.md)
+For a more detailed explanation of traditional and machine learning-based intrusion detection methods
 
 ### [Data Analysis](modules/data/README.md)
 The Data Analysis module is used for processing and analyzing collected data.
