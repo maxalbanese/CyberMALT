@@ -19,7 +19,7 @@ For more details on the autoencoder structure and its role in anomaly detection
 Emphasis on the Anomaly Score.
 
 ### [Threshold](appendices/Threshold.md)
-More Details on the Parameters of the Threshold
+Brief Description on the Parameters of the Threshold
 
 ### [Dataset CIC-IDS2017](appendices/Dataset.md)
 Detailed Description of the Dataset CIC-IDS2017 and of the Attacks that were Utilized
