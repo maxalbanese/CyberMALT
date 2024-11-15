@@ -20,7 +20,7 @@ We apply min-max normalization to scale the feature values between 0 and 1. This
 **Grouping and indexing**  
 To reduce the sensitivity of our solution to small variations in normal traffic behavior and facilitate subsequent data retrieval and analysis, we index the dataset by grouping data points (i.e., network flows) with timestamps falling in the same fixed-size temporal window. This allows us to analyze the data using a moving window technique, with the pace set to the same value as the window size, and quickly retrieve all data points falling in each window, effectively partitioning the data into sets of flows for subsequent analysis. Thus, the dataset can be modeled as a sequence $W = \langle w_0, w_1, \ldots, w_n \rangle$ of sets of network flow records grouped by temporal window, as illustrated in Figure 1.
 
-[![Example of flow record grouping and indexing.](https://github.com/maxalbanese/CyberMALT/blob/main/images/indexing.jpg)
+![Example of flow record grouping and indexing.](https://github.com/maxalbanese/CyberMALT/blob/main/images/indexing.jpg)
 
 By implementing these preprocessing steps, we ensure that the data fed into our machine learning models is clean, consistent, and ready for accurate analysis and anomaly detection.
 
